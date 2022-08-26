@@ -20,6 +20,8 @@ desugarJdk = "1.1.6"
 
 # Other
 androidx-core = "1.9.0-rc01"
+androidx-lifecycle = "2.6.0-alpha01"
+androidx-constraintLayout-compose = "1.1.0-alpha03"
 
 # Otherwise Compose preview won't work
 # https://stackoverflow.com/a/72292926/3853058
@@ -54,7 +56,6 @@ desugarJdk = { module = "com.android.tools:desugar_jdk_libs", version.ref = "des
 android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-core" }
 kotlin-serialization-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin-core" }
-kotlin-atomicfu-gradlePlugin = { module = "org.jetbrains.kotlinx:atomicfu-gradle-plugin", version.ref = "kotlin-atomicFu" }
 dependencyVersion-gradlePlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "dependencyVersion" }
 
 # Coroutines
@@ -72,6 +73,7 @@ accompanist-systemUiController = { module = "com.google.accompanist:accompanist-
 
 # Other
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "androidx-constraintLayout-compose" }
 
 androidx-lifecycle-common = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
@@ -107,7 +109,6 @@ mockito-android = { module = "org.mockito:mockito-android", version.ref = "mocki
 mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
 
 [bundles]
-#androidx-compose = ["androidx-compose-ui", "androidx-compose-material3", "androidx-compose-preview"]
 androidx-compose = ["androidx-compose-ui", "androidx-compose-material", "androidx-compose-material3", "androidx-compose-ui-tooling-preview",
     "androidx-constraintlayout-compose", "androidx-activity-compose", "accompanist-systemUiController"]
 
