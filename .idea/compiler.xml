@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
       <module name="slf4j-timber.app" target="11" />
+      <module name="slf4j-timber.data" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -18,3 +18,4 @@ rootProject.name = "slf4j-timber"
 
 include(":app")
 include(":slf4j-timber")
+include(":data")
