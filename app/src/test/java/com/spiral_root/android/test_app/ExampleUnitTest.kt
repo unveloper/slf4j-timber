@@ -1,4 +1,4 @@
-package com.spiral_root.android.slf4j_timber
+package com.spiral_root.android.test_app
 
 import org.junit.Test
 

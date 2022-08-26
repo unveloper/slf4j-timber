@@ -1,4 +1,4 @@
-package com.spiral_root.android.slf4j_timber
+package com.spiral_root.android.test_app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,13 +10,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.spiral_root.android.slf4j_timber.ui.theme.Slf4jtimberTheme
+import com.spiral_root.android.test_app.ui.theme.TestAppTheme
 
 class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContent {
-			Slf4jtimberTheme {
+			TestAppTheme {
 				// A surface container using the 'background' color from the theme
 				Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
 					Greeting("Android")
@@ -34,7 +34,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-	Slf4jtimberTheme {
+	TestAppTheme {
 		Greeting("Android")
 	}
 }

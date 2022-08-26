@@ -1,4 +1,4 @@
-package com.spiral_root.android.slf4j_timber.ui.theme
+package com.spiral_root.android.test_app.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
