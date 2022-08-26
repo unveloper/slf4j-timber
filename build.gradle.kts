@@ -21,6 +21,7 @@ plugins {
 	// FIXME
 	//id(BuildPlugins.gradleVersionPlugin) version libs.versions.dependencyVersion.get()
 	id(BuildPlugins.gradleVersionPlugin) version "0.42.0"
+	id("org.jetbrains.kotlin.jvm") version "1.7.10" apply false
 }
 
 tasks.register("clean").configure {

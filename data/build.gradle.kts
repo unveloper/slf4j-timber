@@ -37,6 +37,8 @@ android {
 }
 
 dependencies {
+	implementation(project(Modules.Domain))
+
 	coreLibraryDesugaring(libs.desugarJdk)
 
 	// Coroutines

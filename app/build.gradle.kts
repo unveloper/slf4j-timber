@@ -52,6 +52,9 @@ android {
 }
 
 dependencies {
+	implementation(project(Modules.Domain))
+	implementation(project(Modules.Data))
+
 	coreLibraryDesugaring(libs.desugarJdk)
 
 	implementation(libs.androidx.core.ktx)
