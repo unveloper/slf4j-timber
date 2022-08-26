@@ -7,6 +7,7 @@ buildscript {
 	dependencies {
 		classpath(libs.android.gradlePlugin)
 		classpath(libs.kotlin.gradlePlugin)
+		classpath(libs.hilt.android.gradlePlugin)
 
 		// https://stackoverflow.com/a/41958982/3853058
 		classpath(libs.dependencyVersion.gradlePlugin)
@@ -20,8 +21,6 @@ plugins {
 	// FIXME
 	//id(BuildPlugins.gradleVersionPlugin) version libs.versions.dependencyVersion.get()
 	id(BuildPlugins.gradleVersionPlugin) version "0.42.0"
-	id("com.android.library") version "7.2.2" apply false
-	id("org.jetbrains.kotlin.android") version "1.7.10" apply false
 }
 
 tasks.register("clean").configure {

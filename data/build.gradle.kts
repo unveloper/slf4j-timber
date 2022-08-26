@@ -1,6 +1,7 @@
 plugins {
 	id(BuildPlugins.androidLibrary)
 	id(BuildPlugins.kotlinAndroid)
+	id(BuildPlugins.kotlinKapt)
 }
 
 android {
@@ -41,6 +42,12 @@ dependencies {
 	// Coroutines
 	implementation(libs.kotlin.coroutines.core)
 	implementation(libs.kotlin.coroutines.android)
+	// Hilt
+	implementation(libs.hilt.android)
+	kapt(libs.hilt.compiler)
+	kapt(libs.androidx.hilt.compiler)
+	// Log
+	implementation(libs.timber)
 
 	// ---- Test
 	testImplementation(libs.bundles.test.common)
