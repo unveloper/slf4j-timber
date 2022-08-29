@@ -68,6 +68,7 @@ dependencies {
 	kapt(libs.androidx.hilt.compiler)
 	// Log
 	implementation(libs.timber)
+	implementation(libs.slf4j.timber)
 
 	debugImplementation(libs.androidx.compose.ui.tooling)
 	debugImplementation(libs.androidx.compose.ui.test.manifest)

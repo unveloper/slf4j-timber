@@ -13,5 +13,4 @@ dependencies {
 	implementation(libs.kotlin.coroutines.core)
 	// Log
 	implementation(libs.slf4j)
-	implementation(files(Libraries.Slf4jTimber.reference))
 }
