@@ -47,13 +47,6 @@ java {
 afterEvaluate {
 	publishing {
 		publications {
-			/*release(MavenPublication) {
-				from components.release
-
-				groupId = 'com.github.vinchamp77'
-				artifactId = 'demo-simple-android-lib'
-				version = '0.0.0'
-			}*/
 			register("release", MavenPublication::class) {
 				from(components.getByName("release"))
 				groupId = "com.github.unveloper"
