@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import timber.log.Timber
 import java.time.LocalDateTime
 import javax.inject.Inject
 
@@ -24,7 +25,9 @@ class MainViewModel @Inject constructor(
 	val lastActionTime: StateFlow<LocalDateTime?> = _lastActionTime.asStateFlow()
 
 	fun doAction() = viewModelScope.launch {
+		Timber.d("Calling doAction")
 		val result = interactor.getObject()
+		Timber.d("result = $result")
 		_lastActionTime.emit(LocalDateTime.now())
 	}
 }
