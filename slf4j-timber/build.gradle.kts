@@ -51,7 +51,7 @@ afterEvaluate {
 				from(components.getByName("release"))
 				groupId = "com.github.unveloper"
 				artifactId = "slf4j-timber"
-				version = "0.0.1"
+				version = "0.0.2"
 			}
 		}
 	}
