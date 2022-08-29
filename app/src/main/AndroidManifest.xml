@@ -15,7 +15,7 @@
 		android:theme="@style/Theme.TestApp"
 		tools:targetApi="31">
 		<activity
-			android:name="com.spiral_root.android.test_app.MainActivity"
+			android:name="com.spiral_root.android.test_app.ui.main.MainActivity"
 			android:exported="true"
 			android:label="@string/app_name"
 			android:theme="@style/Theme.TestApp">
