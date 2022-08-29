@@ -1,4 +1,4 @@
-package com.spiral_root.android.test_app
+package com.spiral_root.android.test_app.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

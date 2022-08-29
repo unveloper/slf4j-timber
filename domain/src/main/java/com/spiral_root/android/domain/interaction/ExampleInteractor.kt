@@ -4,5 +4,5 @@ import com.spiral_root.android.domain.model.ExampleObject
 
 interface ExampleInteractor {
 
-	suspend fun getObject(id: Int): ExampleObject
+	suspend fun getObject(): ExampleObject
 }
