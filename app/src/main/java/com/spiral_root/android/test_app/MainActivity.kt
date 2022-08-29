@@ -14,7 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
-import androidx.constraintlayout.compose.Dimension
 import com.spiral_root.android.test_app.ui.theme.TestAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -46,7 +45,7 @@ fun Home(name: String, modifier: Modifier = Modifier) {
 					top.linkTo(parent.top, margin = 15.dp)
 					start.linkTo(parent.start)
 					end.linkTo(parent.end)
-					width = Dimension.fillToConstraints
+					centerHorizontallyTo(parent)
 				},
 			text = "Hello $name!"
 		)
@@ -56,6 +55,7 @@ fun Home(name: String, modifier: Modifier = Modifier) {
 					top.linkTo(titleRef.bottom, margin = 15.dp)
 					start.linkTo(parent.start)
 					end.linkTo(parent.end)
+					centerHorizontallyTo(parent)
 				},
 			onClick = { /*TODO*/ }) {
 			Text(text = "Click me :)")
