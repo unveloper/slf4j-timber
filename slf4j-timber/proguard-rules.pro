@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# ATTENTION: Without these rules Proguard eliminates classes and methods that Logger needs.
+-keep public class com.spiral_root.android.slf4j_timber.*

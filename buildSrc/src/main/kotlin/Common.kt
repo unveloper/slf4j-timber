@@ -18,3 +18,9 @@ object Modules {
 	const val Data = ":data"
 	const val Domain = ":domain"
 }
+
+object Libraries {
+	object Slf4jTimber {
+		const val reference = "../libs/slf4j-timber.aar"
+	}
+}
