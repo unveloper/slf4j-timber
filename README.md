@@ -1,10 +1,10 @@
 # slf4j-timber
 
 This is a library that allows pure Java / Kotlin modules or libraries using [SLF4J](https://www.slf4j.org/) as their logging framework to bridge on the Google Android platform
-in combination with [Jake Wharton's Timber logging utility.](https://github.com/JakeWharton/timber).
+in combination with [Jake Wharton's Timber logging utility](https://github.com/JakeWharton/timber).
 
 It's based on the [patrickfav/slf4j-timber](https://github.com/patrickfav/slf4j-timber) project with a modern take 
-using Kotlin and the latest version of _SLF4J_ (currently v2.0.0).
+using Kotlin and the latest version of _SLF4J_ (currently **v2.0.0**).
 
 Usage
 -----
@@ -13,7 +13,8 @@ Follow the guidelines from [jitpack.io](https://jitpack.io) to add the JitPack r
 
 Typically, this means an edit to your `settings.gradle.kts` file to add a new `repository` definition in the `repositories` block, like this:
 
-```dependencyResolutionManagement {
+```
+dependencyResolutionManagement {
 	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 	repositories {
 		google()
