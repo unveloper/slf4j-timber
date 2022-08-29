@@ -34,7 +34,7 @@ compose-material3 = "1.0.0-beta01"
 androidx-hilt = "1.0.0"
 
 hilt = "2.43.2"
-accompanist = "0.26.1-alpha"
+accompanist = "0.26.2-beta"
 material = "1.7.0-beta01"
 
 timber = "5.0.1"
