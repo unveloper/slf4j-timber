@@ -17,6 +17,7 @@ dependencyResolutionManagement {
 rootProject.name = "slf4j-timber-app"
 
 include(":app")
-include(":data")
 include(":domain")
+include(":data")
+
 include(":slf4j-timber")
