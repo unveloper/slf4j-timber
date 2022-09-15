@@ -41,9 +41,6 @@ import timber.log.Timber
  */
 internal class TimberAndroidLoggerAdapter(tag: String?) : MarkerIgnoringBase() {
 
-	/**
-	 * Package access allows only [org.slf4j.impl.TimberAndroidLoggerFactory] to instantiateSimpleLogger instances.
-	 */
 	init {
 		name = tag
 	}
