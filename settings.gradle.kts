@@ -14,7 +14,7 @@ dependencyResolutionManagement {
 		maven("https://jitpack.io")
 	}
 }
-rootProject.name = "slf4j-timber"
+rootProject.name = "slf4j-timber-app"
 
 include(":app")
 include(":data")
