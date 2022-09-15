@@ -38,7 +38,7 @@ accompanist = "0.26.2-beta"
 material = "1.7.0-beta01"
 
 timber = "5.0.1"
-slf4j = "2.0.0"
+slf4j = "2.0.1"
 slf4j-timber = "0.0.2"
 
 junit = "4.13.2"

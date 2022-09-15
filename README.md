@@ -47,6 +47,15 @@ parallel to `org.slf4j:slf4j-android`)
 
 Check out the [source code](https://github.com/unveloper/slf4j-timber/tree/master/app) to see an example app.
 
+Dependencies by version
+-----
+
+slf4j-timber | Timber | SLF4J
+------------ | ------ | -----
+0.0.3        | 5.0.1  | 2.0.1
+0.0.2        | 5.0.1  | 2.0.0
+0.0.1        | 5.0.1  | 2.0.0
+
 ## Description
 
 ### Log level mapping
