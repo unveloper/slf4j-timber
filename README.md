@@ -4,7 +4,7 @@ This is a library that allows pure Java / Kotlin modules or libraries using [SLF
 in combination with [Jake Wharton's Timber logging utility](https://github.com/JakeWharton/timber).
 
 It's based on the [patrickfav/slf4j-timber](https://github.com/patrickfav/slf4j-timber) project with a modern take 
-using Kotlin and the latest version of _SLF4J_ (currently **v2.0.0**).
+using Kotlin and the latest version of _SLF4J_ (currently **v2.0.1**).
 
 Usage
 -----
@@ -30,7 +30,7 @@ Then add the _slf4j-timber_ artifact from this repository as a dependency in you
 ```gradle
 dependencies {
     implementation("com.jakewharton.timber:timber:5.0.1")
-    implementation("com.github.unveloper:slf4j-timber:0.0.2")
+    implementation("com.github.unveloper:slf4j-timber:0.0.3")
 }
 ```
 
@@ -38,7 +38,7 @@ In the pure Java / Kotlin modules should be present the _SLF4J_ artifact:
 
 ```gradle
 dependencies {
-    implementation("org.slf4j:slf4j-api:2.0.0")
+    implementation("org.slf4j:slf4j-api:2.0.1")
 }
 ```
 
@@ -46,6 +46,15 @@ And that's basically it. SLF4J will automatically look for implementations of `I
 parallel to `org.slf4j:slf4j-android`)
 
 Check out the [source code](https://github.com/unveloper/slf4j-timber/tree/master/app) to see an example app.
+
+Dependencies by version
+-----
+
+slf4j-timber | Timber | SLF4J
+------------ | ------ | -----
+0.0.3        | 5.0.1  | 2.0.1
+0.0.2        | 5.0.1  | 2.0.0
+0.0.1        | 5.0.1  | 2.0.0
 
 ## Description
 

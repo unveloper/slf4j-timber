@@ -19,27 +19,27 @@ desugarJdk = "1.1.6"
 #desugarJdk = "1.2.0"
 
 # Other
-androidx-core = "1.9.0-rc01"
-androidx-lifecycle = "2.6.0-alpha01"
+androidx-core = "1.9.0"
+androidx-lifecycle = "2.6.0-alpha02"
 androidx-constraintLayout-compose = "1.1.0-alpha03"
 
 # Otherwise Compose preview won't work
 # https://stackoverflow.com/a/72292926/3853058
 #androidx-activity = "1.4.0"
-androidx-activity = "1.6.0-rc01"
+androidx-activity = "1.6.0-rc02"
 
-compose = "1.3.0-beta01"
-compose-compiler = "1.3.0"
-compose-material3 = "1.0.0-beta01"
+compose = "1.3.0-beta02"
+compose-compiler = "1.3.1"
+compose-material3 = "1.0.0-beta02"
 androidx-hilt = "1.0.0"
 
 hilt = "2.43.2"
-accompanist = "0.26.2-beta"
+accompanist = "0.26.3-beta"
 material = "1.7.0-beta01"
 
 timber = "5.0.1"
-slf4j = "2.0.0"
-slf4j-timber = "0.0.2"
+slf4j = "2.0.1"
+slf4j-timber = "0.0.3"
 
 junit = "4.13.2"
 assertJ = "3.23.1"
