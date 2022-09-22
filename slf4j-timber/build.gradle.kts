@@ -1,3 +1,9 @@
+plugins {
+	id(BuildPlugins.androidLibrary)
+	id(BuildPlugins.kotlinAndroid)
+	//id(BuildPlugins.mavenPublish)
+}
+
 ext {
 	set("PUBLISH_GROUP_ID", "io.github.unveloper")
 	set("PUBLISH_VERSION", "0.0.3")
@@ -15,12 +21,6 @@ ext {
 }
 
 apply(from = "${rootProject.projectDir}/scripts/publish-module.gradle")
-
-plugins {
-	id(BuildPlugins.androidLibrary)
-	id(BuildPlugins.kotlinAndroid)
-	//id(BuildPlugins.mavenPublish)
-}
 
 android {
 	compileSdk = libs.versions.compileSdk.get().toInt()
