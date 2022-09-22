@@ -10,8 +10,6 @@ dependencyResolutionManagement {
 	repositories {
 		google()
 		mavenCentral()
-
-		maven("https://jitpack.io")
 	}
 }
 rootProject.name = "slf4j-timber-app"

@@ -98,7 +98,7 @@ material = { module = "com.google.android.material:material", version.ref = "mat
 # Log
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
-slf4j-timber = { module = "com.github.unveloper:slf4j-timber", version.ref = "slf4j-timber" }
+slf4j-timber = { module = "io.github.unveloper:slf4j-timber", version.ref = "slf4j-timber" }
 
 # Debug
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
