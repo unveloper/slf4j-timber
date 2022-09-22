@@ -6,6 +6,7 @@ plugins {
 }
 
 android {
+	namespace = "com.spiral_root.android.test_app"
 	compileSdk = libs.versions.compileSdk.get().toInt()
 	buildToolsVersion = libs.versions.buildTools.get()
 

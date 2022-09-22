@@ -23,6 +23,7 @@ ext {
 apply(from = "${rootProject.projectDir}/scripts/publish-module.gradle")
 
 android {
+	namespace = "com.spiral_root.android.slf4j_timber"
 	compileSdk = libs.versions.compileSdk.get().toInt()
 	buildToolsVersion = libs.versions.buildTools.get()
 
