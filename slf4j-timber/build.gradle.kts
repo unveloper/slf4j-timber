@@ -1,7 +1,6 @@
 plugins {
 	id(BuildPlugins.androidLibrary)
 	id(BuildPlugins.kotlinAndroid)
-	//id(BuildPlugins.mavenPublish)
 }
 
 ext {
@@ -62,19 +61,6 @@ java {
 	sourceCompatibility = JavaVersion.VERSION_1_8
 	targetCompatibility = JavaVersion.VERSION_1_8
 }
-
-/*afterEvaluate {
-	publishing {
-		publications {
-			register("release", MavenPublication::class) {
-				from(components.getByName("release"))
-				groupId = "com.github.unveloper"
-				artifactId = "slf4j-timber"
-				version = "0.0.3"
-			}
-		}
-	}
-}*/
 
 dependencies {
 	implementation(libs.timber)
