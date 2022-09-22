@@ -1,8 +1,10 @@
 [versions]
-gradle = "7.2.2"
+gradle = "7.3.0"
 buildTools = "33.0.0"
 appJvmTarget = "1.8"
 dependencyVersion = "0.42.0"
+
+gradleNexusPublishPlugin = "1.1.0"
 
 # Sdk
 compileSdk = "33"
@@ -60,6 +62,8 @@ android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref 
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-core" }
 kotlin-serialization-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin-core" }
 dependencyVersion-gradlePlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "dependencyVersion" }
+
+gradleNexus-publishPlugin = { module = "io.github.gradle-nexus:publish-plugin", version.ref = "gradleNexusPublishPlugin" }
 
 # Coroutines
 kotlin-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }

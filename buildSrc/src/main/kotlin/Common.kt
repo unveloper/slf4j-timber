@@ -8,6 +8,7 @@ object BuildPlugins {
 	const val javaLibrary = "java-library"
 	const val kotlin = "org.jetbrains.kotlin.jvm"
 	const val mavenPublish = "maven-publish"
+	const val gradleNexusPublishPlugin = "io.github.gradle-nexus.publish-plugin"
 }
 
 object Android {
