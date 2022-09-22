@@ -1,8 +1,10 @@
 [versions]
-gradle = "7.2.2"
+gradle = "7.3.0"
 buildTools = "33.0.0"
 appJvmTarget = "1.8"
 dependencyVersion = "0.42.0"
+
+gradleNexusPublishPlugin = "1.1.0"
 
 # Sdk
 compileSdk = "33"
@@ -38,8 +40,8 @@ accompanist = "0.26.3-beta"
 material = "1.7.0-beta01"
 
 timber = "5.0.1"
-slf4j = "2.0.1"
-slf4j-timber = "0.0.3"
+slf4j = "2.0.2"
+slf4j-timber = "0.0.4"
 
 junit = "4.13.2"
 assertJ = "3.23.1"
@@ -60,6 +62,8 @@ android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref 
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-core" }
 kotlin-serialization-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin-core" }
 dependencyVersion-gradlePlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "dependencyVersion" }
+
+gradleNexus-publishPlugin = { module = "io.github.gradle-nexus:publish-plugin", version.ref = "gradleNexusPublishPlugin" }
 
 # Coroutines
 kotlin-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }
@@ -94,7 +98,7 @@ material = { module = "com.google.android.material:material", version.ref = "mat
 # Log
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
-slf4j-timber = { module = "com.github.unveloper:slf4j-timber", version.ref = "slf4j-timber" }
+slf4j-timber = { module = "io.github.unveloper:slf4j-timber", version.ref = "slf4j-timber" }
 
 # Debug
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }

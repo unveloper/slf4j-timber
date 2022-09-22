@@ -15,6 +15,6 @@ class ExampleInteractorImpl(private val repository: ExampleRepository) : Example
 	}
 
 	companion object {
-		private val logger: Logger = LoggerFactory.getLogger(ExampleInteractorImpl::class.java)
+		private val logger: Logger = LoggerFactory.getLogger(ExampleInteractorImpl::class.simpleName)
 	}
 }
