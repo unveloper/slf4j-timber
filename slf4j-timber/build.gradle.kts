@@ -1,7 +1,23 @@
+ext {
+	set("PUBLISH_GROUP_ID", "io.github.unveloper")
+	set("PUBLISH_VERSION", "0.0.3")
+	set("PUBLISH_ARTIFACT_ID", "slf4j-timber")
+	set("PUBLISH_DESCRIPTION", "SLF4J binding for Timber - the famous logger for Android")
+	set("PUBLISH_URL", "https://github.com/unveloper/slf4j-timber")
+	set("PUBLISH_LICENSE_NAME", "Apache-2.0 license")
+	set("PUBLISH_LICENSE_URL", "https://github.com/unveloper/slf4j-timber/blob/master/LICENSE.txt")
+	set("PUBLISH_DEVELOPER_ID", "unveloper")
+	set("PUBLISH_DEVELOPER_NAME", "Unveloper")
+	set("PUBLISH_DEVELOPER_EMAIL", "down.the.spiral.root@gmail.com")
+	set("PUBLISH_SCM_CONNECTION", "scm:git:github.com/unveloper/slf4j-timber.git")
+	set("PUBLISH_SCM_DEVELOPER_CONNECTION", "scm:git:ssh://github.com/unveloper/slf4j-timber.git")
+	set("PUBLISH_SCM_URL", "https://github.com/unveloper/slf4j-timber/tree/master")
+}
+
 plugins {
 	id(BuildPlugins.androidLibrary)
 	id(BuildPlugins.kotlinAndroid)
-	id(BuildPlugins.mavenPublish)
+	//id(BuildPlugins.mavenPublish)
 }
 
 android {
@@ -44,7 +60,7 @@ java {
 	targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-afterEvaluate {
+/*afterEvaluate {
 	publishing {
 		publications {
 			register("release", MavenPublication::class) {
@@ -55,7 +71,7 @@ afterEvaluate {
 			}
 		}
 	}
-}
+}*/
 
 dependencies {
 	implementation(libs.timber)
