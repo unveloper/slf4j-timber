@@ -27,6 +27,8 @@ plugins {
 	id(BuildPlugins.gradleNexusPublishPlugin) version "1.1.0"
 }
 
+apply(from = "${rootProject.projectDir}/scripts/publish-root.gradle")
+
 tasks.register("clean").configure {
 	delete("build")
 }
