@@ -23,7 +23,8 @@ plugins {
 	// FIXME
 	//id(BuildPlugins.gradleVersionPlugin) version libs.versions.dependencyVersion.get()
 	id(BuildPlugins.gradleVersionPlugin) version "0.42.0"
-	id(BuildPlugins.gradleNexusPublishPlugin)
+	//id(BuildPlugins.gradleVersionPlugin) version libs.versions.gradleNexusPublishPlugin.get()
+	id(BuildPlugins.gradleNexusPublishPlugin) version "1.1.0"
 }
 
 tasks.register("clean").configure {
