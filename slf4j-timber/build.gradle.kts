@@ -14,6 +14,8 @@ ext {
 	set("PUBLISH_SCM_URL", "https://github.com/unveloper/slf4j-timber/tree/master")
 }
 
+apply(from = "${rootProject.projectDir}/scripts/publish-module.gradle")
+
 plugins {
 	id(BuildPlugins.androidLibrary)
 	id(BuildPlugins.kotlinAndroid)
