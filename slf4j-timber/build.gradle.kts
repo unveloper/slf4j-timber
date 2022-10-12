@@ -5,7 +5,7 @@ plugins {
 
 ext {
 	set("PUBLISH_GROUP_ID", "io.github.unveloper")
-	set("PUBLISH_VERSION", "0.0.4")
+	set("PUBLISH_VERSION", "0.0.5")
 	set("PUBLISH_ARTIFACT_ID", "slf4j-timber")
 	set("PUBLISH_DESCRIPTION", "SLF4J binding for Timber - the famous logger for Android")
 	set("PUBLISH_URL", "https://github.com/unveloper/slf4j-timber")

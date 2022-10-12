@@ -32,3 +32,6 @@ apply(from = "${rootProject.projectDir}/scripts/publish-root.gradle")
 tasks.register("clean").configure {
 	delete("build")
 }
+
+// Publishing Android library to Maven guide: https://medium.com/mobile-app-development-publication/upload-to-mavencentral-made-easy-for-android-library-30d2b83af0c7
+// Gradle commando to publish: publishReleasePublicationToMavenLocal
