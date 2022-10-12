@@ -34,4 +34,5 @@ tasks.register("clean").configure {
 }
 
 // Publishing Android library to Maven guide: https://medium.com/mobile-app-development-publication/upload-to-mavencentral-made-easy-for-android-library-30d2b83af0c7
-// Gradle commando to publish: publishReleasePublicationToMavenLocal
+// Gradle commando to publish: publishReleasePublicationToSonatypeRepository
+// Gradle commando to publish to Maven local: publishReleasePublicationToMavenLocal
