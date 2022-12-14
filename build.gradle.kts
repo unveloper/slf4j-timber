@@ -22,7 +22,7 @@ buildscript {
 plugins {
 	// FIXME
 	//id(BuildPlugins.gradleVersionPlugin) version libs.versions.dependencyVersion.get()
-	id(BuildPlugins.gradleVersionPlugin) version "0.42.0"
+	id(BuildPlugins.gradleVersionPlugin) version "0.44.0"
 	//id(BuildPlugins.gradleVersionPlugin) version libs.versions.gradleNexusPublishPlugin.get()
 	id(BuildPlugins.gradleNexusPublishPlugin) version "1.1.0"
 }
