@@ -4,7 +4,7 @@ This is a library that allows pure Java / Kotlin modules or libraries using [SLF
 in combination with [Jake Wharton's Timber logging utility](https://github.com/JakeWharton/timber).
 
 It's based on the [patrickfav/slf4j-timber](https://github.com/patrickfav/slf4j-timber) project with a modern take 
-using Kotlin and the latest version of _SLF4J_ (currently **v2.0.3**).
+using Kotlin and the latest version of _SLF4J_ (currently **v2.0.4**).
 
 Usage
 -----
@@ -15,7 +15,7 @@ Add the _slf4j-timber_ artifact from this repository as a dependency in your `ap
 ```gradle
 dependencies {
     implementation("com.jakewharton.timber:timber:5.0.1")
-    implementation("io.github.unveloper:slf4j-timber:0.0.5")
+    implementation("io.github.unveloper:slf4j-timber:0.0.6")
 }
 ```
 
@@ -23,7 +23,7 @@ In the pure Java / Kotlin modules should be present the _SLF4J_ artifact:
 
 ```gradle
 dependencies {
-    implementation("org.slf4j:slf4j-api:2.0.3")
+    implementation("org.slf4j:slf4j-api:2.0.4")
 }
 ```
 
@@ -66,6 +66,7 @@ Dependencies by version
 
 | slf4j-timber | Timber | SLF4J |
 |--------------|--------|-------|
+| 0.0.6        | 5.0.1  | 2.0.4 |
 | 0.0.5        | 5.0.1  | 2.0.3 |
 | 0.0.4        | 5.0.1  | 2.0.2 |
 | 0.0.3        | 5.0.1  | 2.0.1 |
